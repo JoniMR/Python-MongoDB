@@ -1,0 +1,286 @@
+#content {
+  text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	font-family: Helvetica;
+	-webkit-font-smoothing: antialiased;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	letter-spacing: 1px;
+	color: white;
+	text-shadow: -2px 0px 2px #000;
+}
+
+h2 {
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: black;
+	padding: 10px 0;
+}
+
+header {
+  font-size: 24px;
+  text-align: center;
+}
+/* Table Styles */
+
+.table-wrapper {
+	margin: 10px 70px 70px;
+	box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table {
+	font-size: 14px;
+	font-weight: normal;
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 100%;
+	white-space: nowrap;
+	background-color: white;
+}
+
+.fl-table td,
+.fl-table th {
+	text-align: center;
+	padding: 8px;
+}
+
+.fl-table td {
+	font-size: 14px;
+	border: 1px solid #e6e4e4;
+}
+
+.fl-table thead th {
+	color: #ffffff;
+	background: #4fc3a1;
+}
+
+.fl-table thead th:nth-child(odd) {
+	color: #ffffff;
+	background: #324960;
+}
+
+.fl-table td:nth-child(even) {
+	background: #f8f8f8;
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+	.fl-table {
+		display: block;
+		width: 100%;
+	}
+	.table-wrapper:before {
+		content: "Scroll horizontally >";
+		display: block;
+		text-align: right;
+		font-size: 11px;
+		color: white;
+		padding: 0 0 10px;
+	}
+	.fl-table thead,
+	.fl-table tbody,
+	.fl-table thead th {
+		display: block;
+	}
+	.fl-table thead th:last-child {
+		border-bottom: none;
+	}
+	.fl-table thead {
+		float: left;
+	}
+	.fl-table tbody {
+		width: auto;
+		position: relative;
+		overflow-x: auto;
+	}
+	.fl-table td,
+	.fl-table th {
+		padding: 20px 0.625em 0.625em 0.625em;
+		height: 60px;
+		vertical-align: middle;
+		box-sizing: border-box;
+		overflow-x: hidden;
+		overflow-y: auto;
+		width: 120px;
+		font-size: 13px;
+		text-overflow: ellipsis;
+	}
+	.fl-table thead th {
+		text-align: left;
+		border-bottom: 1px solid #f7f7f9;
+	}
+	.fl-table tbody tr {
+		display: table-cell;
+	}
+	.fl-table tbody tr:nth-child(odd) {
+		background: none;
+	}
+	.fl-table tr:nth-child(even) {
+		background: transparent;
+	}
+	.fl-table tr td:nth-child(odd) {
+		background: #f8f8f8;
+		border-right: 1px solid #e6e4e4;
+	}
+	.fl-table tr td:nth-child(even) {
+		border-right: 1px solid #e6e4e4;
+	}
+	.fl-table tbody td {
+		display: block;
+		text-align: center;
+	}
+}
+
+.button-10 {
+	-moz-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+	box-shadow: inset 0px 1px 0px 0px #45d6d6;
+	background-color: #2cbbbb;
+	border: 1px solid #27a0a0;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+}
+
+.button-10:hover {
+	box-shadow: inset 0px 0.5px 0px -0.25px rgba(255, 255, 255, 0.2),
+		0px 0.5px 1px rgba(54, 122, 246, 0.25), 0px 0px 0px 1.5px rgba(58, 108, 217, 0.5);
+	outline: 0;
+}
+
+.button-11 {
+	-moz-box-shadow: inset 0px 1px 0px 0px #6e6d90;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #6e6d90;
+	box-shadow: inset 0px 1px 0px 0px #6e6d90;
+	background: linear-gradient(180deg, #6e6d70 0%, #6e6d90 100%);
+	border: 1px solid #6e6d90;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+}
+
+.button-11:hover {
+	box-shadow: inset 0px 0.5px 0px -0.25px rgba(255, 255, 255, 0.2),
+		0px 0.5px 1px rgba(54, 122, 246, 0.25), 0px 0px 0px 1.5px rgba(58, 108, 217, 0.5);
+	outline: 0;
+}
+
+.button-12 {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3e6d90;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3e6d90;
+	box-shadow: inset 0px 1px 0px 0px #3e6d90;
+	background: linear-gradient(180deg, #3e6d70 0%, #3e6d90 100%);
+	border: 1px solid #3e6d90;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+}
+
+.button-12:hover {
+	box-shadow: inset 0px 0.5px 0px -0.25px rgba(255, 255, 255, 0.2),
+		0px 0.5px 1px rgba(54, 122, 246, 0.25), 0px 0px 0px 1.5px rgba(58, 108, 217, 0.5);
+	outline: 0;
+}
+
+.form-style-8 {
+	font-family: Helvetica;
+	background: #ffffff;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+}
+.form-style-8 h1 {
+	background: #4d4d4d;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 select {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea {
+	resize: none;
+	overflow: hidden;
+}
+.form-style-8 a,
+.form-style-8 input[type="button"],
+.form-style-8 input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45d6d6;
+	box-shadow: inset 0px 1px 0px 0px #45d6d6;
+	background-color: #2cbbbb;
+	border: 1px solid #27a0a0;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.form-style-8 a:hover,
+.form-style-8 input[type="button"]:hover,
+.form-style-8 input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #34caca 5%, #30c9c9 100%);
+	background-color: #34caca;
+}
+
+#add-button {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  
+}
+
+p {
+  text-align: center;
+  font-size: 24px;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.header-emergente {
+  text-align: center;
+  font-size: 24px;
+	font-family: "Open Sans Condensed", sans-serif;
+}
