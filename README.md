@@ -14,4 +14,4 @@
 
 ### Muestras:
 
-He realizado distintas capturas de pantalla de las opciones del programa, en las que se muestra la adición de una nueva entidad, el cambio de página, el index del proyecto y el resultado de la eliminación de distintos registros de la BBDD.
+Se han realizado distintas capturas de pantalla de las opciones del programa, en las que se muestra la adición de una nueva entidad, el cambio de página, el index del proyecto y el resultado de la eliminación de distintos registros de la BBDD.
