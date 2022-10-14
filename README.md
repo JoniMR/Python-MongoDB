@@ -16,4 +16,4 @@
 
 1. He realizado distintas capturas de pantalla de las opciones del programa:
 
-![Nuevo](concepto.svg)
+![Nuevo](Captura - Añadir entidad.jpg)
